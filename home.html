@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<meta name="Viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Allerta&display=swap" rel="stylesheet">
+	<script src="main.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body id="body" onload="pageSetting()" onresize="pageSetting()">
+	<header>
+		<div id="Header">
+			<div id="divLogoLeft">
+				<img class="LogoLeft" src="img/logo-newspaper-cf.png" alt="Code Factory Vienna">
+			</div>
+			<div id="divLogoRight" >
+				<img class="LogoRight" onclick="bannerClick()" src="img/banner-V1.2.png" alt="Code Factory Vienna">
+			</div>
+		</div>
+		<nav class="Menu">
+			<ul>
+				<li><a href="#" title="home">home</a></li>
+				<li><a href="tech.html" title="Tech">Tech</a></li>
+				<li><a href="culture.html" title="Culture">Culture</a></li>
+				<li><a href="video.html" title="Video">Video</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="container">
+		<div class="dateAndDay">
+			<p>Friday, 25.01.2020</p>
+		</div>		
+		<div class="PicMain wrapper">		
+				<div class="divTopNews">
+					<p>Top News</p>
+				</div>
+				<div class="divPic" onclick="toArticlePage()">
+					<img class="topImg"  src="img/nasa.png" alt="nasa">			
+				</div>
+				<div class="divPic" onclick="toArticlePage()">
+					<img  class="topImg" src="img/eu.png" alt="eu">				
+				</div>
+				<div class="divPic" onclick="toArticlePage()">
+					<img class="topImg"  src="img/jeff.png" alt="jeff">			
+				</div>			
+				<div class="divbanner2">
+					<img class="bannerimg" onclick="bannerClick()" src="img/banner-2-v2.png" alt="banner-2">
+				</div>
+				<div class="divPic divbanner5">
+					<img class="topImg" onclick="bannerClick()" src="img/banner-mobile-fswd.png" alt="Code Factory Vienna">			
+				</div>
+				<div class="divPopular">
+					<p>Popular</p>
+			    </div>
+			     <div class="divPic" onclick="toArticlePage()">
+					<img  class="topImg" src="img/polar.png" alt="polar">
+					
+				</div>
+				<div class="divPic" onclick="toArticlePage()">
+					<img  class="topImg" src="img/musk.jpg" alt="musk">
+					
+				</div>
+				<div class="divPic" onclick="toArticlePage()">
+					<img class="topImg"  src="img/snowden.jpg" alt="snowden">	
+				</div>
+				
+		</div>	
+		<div class="divBanner3">
+			<img  class="topImg33" onclick="bannerClick()" src="img/banner-3-v2.png" alt="banner3">	
+		</div>	
+		<div class="PicMain wrapperBottom">		
+				<div class="divPic divPicbottom" onclick="toArticlePage()">
+					<img class="topImg"  src="img/iphone.png" alt="iphone">		
+					
+				</div>
+				<div class="divPic" onclick="toArticlePage()">
+					<img  class="topImg" src="img/smart.png" alt="smart">				
+				</div>
+				<div class="divbanner4">
+					<img class="bannerimg" onclick="bannerClick()"  src="img/banner-4-v2.png" alt="banner-4">
+				</div>
+				<div class="divPic" onclick="toArticlePage()">
+					<img  class="topImg" src="img/one.png" alt="one">
+					
+				</div>
+				<div class="divPic" onclick="toArticlePage()">
+					<img  class="topImg" src="img/phone.png" alt="phone">		
+				</div>
+							
+		</div>		
+	</div>
+	<footer>
+		<nav class="Menu navFooter">
+				<ul>
+					<li><a href="#" title="home">home</a></li>
+					<li><a href="tech.html" title="Tech">Tech</a></li>
+					<li><a href="culture.html" title="Culture">Culture</a></li>
+					<li><a href="video.html" title="Video">Video</a></li>
+				</ul>
+		</nav>
+		<div id="Footer">
+			<div id="divFooterLogo">
+				<img class="FooterLogoRight" src="img/logo-newspaper-cf.png" alt="Code Factory Vienna">
+			</div>				
+			<div id="divFooterTitle">
+				<p>Sepide Nickmanesh- CodeFactory 2020</p>
+			</div>	
+				
+		</div>
+	</footer>
+</body>
+</html>
