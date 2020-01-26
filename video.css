@@ -1,0 +1,29 @@
+#container {
+  padding: 5%; }
+
+.wrapper {
+  border: 1px solid black;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 45% 55%; }
+  @media screen and (max-width: 480px) {
+    .wrapper {
+      grid-template-columns: 100%; } }
+
+.divVideo {
+  border: 1px solid black;
+  width: 100%;
+  text-align: right; }
+
+.divText {
+  width: 100%;
+  border: 1px solid black; }
+
+iframe {
+  width: 560px;
+  height: 314px; }
+  @media screen and (max-width: 480px) {
+    iframe {
+      grid-template-columns: 100%; } }
+
+/*# sourceMappingURL=video.css.map */

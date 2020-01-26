@@ -2,24 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Article</title>
+	<title>Video</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="video.css">
 	<meta name="Viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Allerta&display=swap" rel="stylesheet">
 	<script src="main.js" type="text/javascript" charset="utf-8" async defer></script>
-	<style type="text/css" media="screen">
-		#videoContainer 
-		{
-		  
-		  
-		  padding-left: 10%;
-		  padding-right: 10%;
-		  padding-top: 50px;
-		  text-align: center;
-		  font-size: 100px;
-		  margin:  10px;
-		}
-	</style>
 </head>
 <body id="body" onload="pageSetting()" onresize="pageSetting()">
 	<header>
@@ -40,12 +28,22 @@
 			</ul>
 		</nav>
 	</header>
-	<div id="videoContainer">
-		
-		  <video width="480" controls poster="https://archive.org/download/			WebmVp8Vorbis/webmvp8.gif" >
-		  <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.webm" type="video/webm">x`
-		  <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8_512kb.mp4" type="video/mp4">
-		  <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.ogv" type="video/ogg">Your browser doesn't support HTML5 video tag.</video>
+	<div id="container">
+		<div class="wrapper">			
+			<div class="divText">
+				<div class="divTitle">
+					<p>CSS Grid</p>
+				</div>
+				<div class="divDesc">
+					<p>
+						CSS Grid Layout is the most powerful layout system available in CSS. It is a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system. You work with Grid Layout by applying CSS rules both to a parent element (which becomes the Grid Container) and to that […]
+					</p>
+				</div>
+			</div>
+			<div class="divVideo">
+				<iframe src="https://www.youtube.com/embed/jV8B24rSN5o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		
+			</div >			
+		</div>
 	</div>
 	<footer>
 		<nav class="Menu">
