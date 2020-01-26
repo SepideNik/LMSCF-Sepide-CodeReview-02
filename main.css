@@ -1,5 +1,5 @@
 body {
-  font-family: "Allerta", sans-serif;
+  font-family: "News Cycle", sans-serif;
   overflow-x: hidden;
   margin: 0;
   padding: 0; }
@@ -11,16 +11,14 @@ body {
 nav {
   background-color: black;
   color: white;
-  padding-left: 15px; }
+  padding-left: 10px; }
 
 nav ul {
-  padding: 10px 10px;
+  padding: 3px 15px;
   margin: 0;
-  height: 20px;
   text-align: left;
   position: relative;
-  list-style: none;
-  font-size: 18px; }
+  list-style: none; }
   @media screen and (max-width: 480px) {
     nav ul {
       text-align: center; } }
@@ -33,8 +31,15 @@ a {
   text-decoration: none;
   color: white; }
 
+.navHeader ul {
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold; }
+
 .navFooter ul {
-  margin: 0; }
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold; }
 
 #Header {
   width: 100%;
