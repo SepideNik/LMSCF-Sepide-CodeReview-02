@@ -18,6 +18,8 @@ function pageSetting() {
 		document.getElementById("divLogoRight").style.display = "none";		
 	else
 		document.getElementById("divLogoRight").style.display = "block";
+
+	getDateAndTime();
 }
 // onclick event for baners
 function bannerClick() {
@@ -26,6 +28,17 @@ function bannerClick() {
 
 }
 function getDateAndTime(){
+
+	var currentDate = new Date();
+	var day = currentDate.getDay();	
+	var dd = String(currentDate.getMonth() + 1).padStart(2, '0'); 
+	var mm= String(currentDate.getDate()).padStart(2, '0');
+	var yyyy = currentDate.getFullYear();
+	
+	var weekday = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+	var today = weekday[currentDate.getDay()] + ', '+ mm + '.' + dd + '.' + yyyy;
+	
+	document.getElementById("dateAndDay").innerHTML = today;
 	
 }
 function toArticlePage(){

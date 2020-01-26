@@ -3,7 +3,7 @@
   padding-left: 5%;
   padding-bottom: 5%; }
 
-.dateAndDay {
+#dateAndDay {
   grid-column: 1/8;
   grid-row: 1/2;
   color: #5C5C5C;
@@ -13,7 +13,7 @@
   vertical-align: bottom;
   height: 20px; }
   @media screen and (max-width: 480px) {
-    .dateAndDay {
+    #dateAndDay {
       display: none; } }
 
 .divTopNews {
