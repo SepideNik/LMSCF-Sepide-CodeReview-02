@@ -5,14 +5,8 @@ function pageSetting() {
 	var fullScreenFooterHeight = 200;
 	var myMaxWidth = 1247;
 	var BodyWidth = document.getElementById("body").offsetWidth;
-	//console.log(BodyWidth);
-	//alert(BodyWidth);
 	var newHeaderHeight = (fullScreenHeaderHeight*BodyWidth)/myMaxWidth;
-	//var newFooterHeight = (fullScreenFooterHeight*BodyWidth)/myMaxWidth;
-	//alert(newHeaderAndFootrHeight);
 	document.getElementById("Header").style.height = newHeaderHeight+"px";
-	//document.getElementById("Footer").style.height = newFooterHeight+"px";
-
 	
 	if (BodyWidth < 690)	
 		document.getElementById("divLogoRight").style.display = "none";		
@@ -23,7 +17,7 @@ function pageSetting() {
 }
 // onclick event for baners
 function bannerClick() {
-	//window.location.replace("https://www.codefactory.wien");
+//window.location.replace("https://www.codefactory.wien");
 	window.open("https://www.codefactory.wien");
 
 }
